@@ -11,12 +11,18 @@ public class ZahlenQuadrieren {
 		for (int i=1; i<=10; i++){
 			int summe = i*i;
 			System.out.println(summe);
-		}
-		System.out.println("---------");
-		int basis = 2;
-	    InputStreamReader isr = new InputStreamReader(System.in);
+		}	    
+		InputStreamReader isr = new InputStreamReader(System.in);
 	    BufferedReader br = new BufferedReader(isr);
-	    System.out.println("Potenziert wird nun die Zahl 2 mit einer Potenz deiner Wahl");
+		System.out.println("---------");
+		System.out.println("Potenziere Zahlen:");
+		System.out.println("");
+	    System.out.println("Gib eine Zahl ein: ");
+	    String eingabe1 = br.readLine();
+		int basis = Integer.valueOf(eingabe1);
+	    System.out.println("Du hast " + eingabe1 + " eingegeben.");
+	    System.out.println("");
+	    System.out.println("Potenziert wird nun die Zahl "+eingabe1+" mit einer Potenz deiner Wahl");
 	    System.out.println("Gib eine Zahl ein: ");
 	    String eingabe = br.readLine();
 	    System.out.println("Du hast " + eingabe + " eingegeben.");
@@ -27,6 +33,7 @@ public class ZahlenQuadrieren {
 			summe = summe*basis;
 			
 		}
+		System.out.println("");
 		System.out.println("das Ergebnis ist: "+summe);
 	}
 

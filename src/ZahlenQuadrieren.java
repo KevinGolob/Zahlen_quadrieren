@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
+// von Kevin Golob
 public class ZahlenQuadrieren {
 
 	public static void main(String[] args) throws IOException {

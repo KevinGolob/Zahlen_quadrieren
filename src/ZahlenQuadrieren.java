@@ -35,6 +35,7 @@ public class ZahlenQuadrieren {
 		}
 		System.out.println("");
 		System.out.println("das Ergebnis ist: "+summe);
+		System.out.println("Auf wiedersehen");
 	}
 
 }
